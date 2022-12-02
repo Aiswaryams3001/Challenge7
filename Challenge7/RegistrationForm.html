@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <table border="0" cellpadding="10" cellspacing="5" style="width:50%" align="center">
+        <tr>
+            <th colspan="3" aligncolor="red"><img src="employee.png"  width="100" height="100" alt="logo loading" id="lef" /><h1 style="color:red">Employee Registration Form</h1></th>
+        </tr>
+        <tr>
+            <th></th>
+            <td>
+                <input type="radio" name="rblMr" value="Mr" />Mr.
+                <input type="radio" name="rblMrs" value="Mrs" />Mrs.
+                <input type="radio" name="rblMs" value="Ms" />Ms.
+            </td>
+        </tr>
+        <tr>
+            <th>First Name</th>
+            <td><input type="text" name="name" placeholder="FirstName" /></td>
+        </tr>
+        <tr>
+            <th>Last Name</th>
+            <td><input type="text" name="name" placeholder="LastName" /></td>
+        </tr>
+        <tr>
+            <th>Mail Address1</th>
+            <td><input type="text" name="address1" /></td>
+        </tr>
+        <tr>
+            <th>Mail Address2</th>
+            <td><input type="text" name="address2" /></td>
+        </tr>
+        <tr>
+            <th>City</th>
+            <td><input type="text" name="city" /></td>
+        </tr>
+        <tr>
+            <th>State</th>
+            <td>
+                <select name="ddlstate">
+                    <option value="1">Gujarat</option>
+                    <option value="2">Kerala</option>
+                    <option value="3">Delhi</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Zip</th>
+            <td><input type="text" name="zip" /></td>
+        </tr>
+        <tr>
+            <th>Upload Photo</th>
+            <td>
+                <input type="file" name="photo" />
+            </td>
+        </tr>
+        <tr>
+            <th>E-Mail</th>
+            <td><input type="text" name="email" /></td>
+        </tr>
+        <tr>
+            <th>Mobile</th>
+            <td><input type="text" name="mobile" placeholder="+91" /></td>
+        </tr>
+        <tr>
+            <th>Languages Known</th>
+            <td>
+                <input type="checkbox" name="Gujarati" value="Gujarati" />Gujarati<br />
+                <input type="checkbox" name="Hindi" value="Hindi" />Hindi<br />
+                <input type="checkbox" name="English" value="English" />English<br />
+                <input type="checkbox" name="Marathi" value="Marathi" />Marathi<br />
+            </td>
+        </tr>
+        <tr>
+            <th>Additional Information</th>
+            <td><textarea additional information="txtadditionalinformation" rows="6" cols="30" placeholder="Optional"></textarea></td>
+        </tr>
+        <tr>
+            <th colspan="3">
+                <input type="submit" name="btn" value="submit" />
+                <input type="reset" name="reset" value="reset" />
+            </th>
+        </tr>
+    </table>
+</body>
+</html>
